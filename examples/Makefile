@@ -2,7 +2,6 @@
 .PRECIOUS: %.wasm
 
 CC = clang
-CXX = clang++
 WASM2WAT ?= wasm2wat
 
 export PATH := /usr/local/opt/llvm/bin:$(PATH)
